@@ -1,0 +1,14 @@
+// STYLE.SCSS ES EL ARCHIVO RAÍZ Y DEBE DE TENER SOLO LOS IMPORT.
+@import 'layout/header';
+// import 'archivo que quiero unir'
+@import "base/reset";
+@import 'base/fonts';
+// import promociones
+@import 'layout/promociones';
+// import section-principal
+@import 'layout/section-principal';
+// import componente
+@import 'components/buttons'
+
+
+

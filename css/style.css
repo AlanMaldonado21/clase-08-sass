@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+header {
+  background-color: #1A1A1A;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+header h1 {
+  color: white;
+  font-size: 2rem;
+}
+header h1:hover {
+  color: yellow;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li {
+  margin: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  margin: 15px;
+  color: yellow;
+}
+header nav ul li #cursos-green {
+  color: green;
+}
+header nav ul li .enlace-blue {
+  color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A1A1A;
+}
+
+.promocion {
+  background-color: #F4FE80;
+  padding: 10px;
+}
+.promocion p {
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+.promocion p span {
+  font-weight: bold;
+}
+
+section {
+  margin: 1rem;
+}
+section h2 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+section h2 span {
+  color: yellow;
+}
+section p {
+  margin-top: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+section div {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 3px;
+  display: block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.button:hover {
+  opacity: 80%;
+}
+
+.card {
+  width: 150px;
+  height: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */
