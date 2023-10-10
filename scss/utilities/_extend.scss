@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: aqua;
+    background-color: chocolate;
+}
+
+.etiqueta{
+    // extend etiqueta que quiero que herede las propiedades
+    @extend h1;
+}
+

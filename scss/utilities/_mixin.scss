@@ -1,0 +1,21 @@
+@mixin button-style($bg-color,$text-color, $ancho,$font,$time){
+    background-color: $bg-color;
+    color: $text-color;
+    width: $ancho;
+    font-family: $font;
+    transition: $time ;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: black;
+    }
+}
+
+.button01{
+    @include button-style(yellow, black, 250px , Arial , 1s );
+}
+
+.button02{
+    @include button-style(red, yellow,550px , Arial,3s );
+}

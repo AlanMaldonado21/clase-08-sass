@@ -8,7 +8,12 @@
 // import section-principal
 @import 'layout/section-principal';
 // import componente
-@import 'components/buttons'
-
+@import 'components/buttons';
+// import utilities
+@import 'utilities/variables';
+// import extend
+@import 'utilities/extend';
+// IMPORT MIXIN
+@import 'utilities/mixin';
 
 
